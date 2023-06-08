@@ -23,7 +23,7 @@ var fs = require('fs');
 var path = require('path');
 var initSwaggerTools = require('swagger-tools').initializeMiddleware;
 var debug = require('debug')('pipe');
-var bagpipes = require('bagpipes');
+var bagpipes = require('bagpipes-fixed');
 
 var SWAGGER_SELECTED_PIPE = 'x-swagger-pipe';
 var SWAGGER_ROUTER_CONTROLLER = 'x-swagger-router-controller';
